@@ -1,0 +1,54 @@
+.list_of_links{
+    list-style-type: none;
+    gap: 10px;
+}
+.list_of_links li a{
+    text-decoration: none;
+}
+.list_of_links li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.custom-table {
+    border-collapse: separate; /* Не зливати межі комірок */
+    border-spacing: 20px 0px; /* Відступ між колонками */
+    width: 100%; /* Щоб таблиця займала всю ширину */
+  }
+  
+  .custom-table td {
+    width: 25%; /* Однакова ширина кожної колонки */
+    text-align: center; /* Вирівнювання тексту всередині комірок */
+    padding: 10px; /* Додатковий внутрішній відступ, за бажанням */
+    border: 1px solid black; /* Опціональна рамка навколо комірок */
+  }
+  img{
+    max-width: 100%;
+  }
+.header{
+    border: 1px solid black;
+    display: inline;
+    background-color:yellow;
+}
+.left{
+    text-align: left;
+}
+.footer {
+    align-content:  end;
+}
+.header_handler{
+    position: relative;
+    height: 100px;
+    background-color: aquamarine;
+}
+.left{
+    position: absolute; /* Абсолютне позиціонування для заголовка */
+  left: 10px; /* Вирівнювання по правому краю */
+  top: 50%; /* Вирівнювання по вертикалі */
+  transform: translateY(-100%); /*Центрування по вертикалі*/
+}
+.right{
+    position: absolute;
+    right: 10px;
+    top: 50%; /* Вирівнювання по вертикалі */
+     transform: translateY(-100%); /*Центрування по вертикалі */
+}
